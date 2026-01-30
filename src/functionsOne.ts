@@ -39,3 +39,12 @@ const data:users = {
 const result = createUsers(data);
 
 console.log(getUserList());
+
+// Use optional ?
+type chai = {name: string, price?: number}
+
+function getChai(data: chai): void {
+    console.log(`name of chai is, ${data.name}`);
+}
+
+getChai({ name: 'Masala' });

@@ -24,3 +24,7 @@ var data = {
 };
 var result = createUsers(data);
 console.log(getUserList());
+function getChai(data) {
+    console.log("name of chai is, ".concat(data.name));
+}
+getChai({ name: 'Masala' });
